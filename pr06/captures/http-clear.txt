@@ -1,0 +1,75 @@
+17:16:03.583483 IP 127.0.0.1.32898 > 127.0.0.1.8080: Flags [S], seq 3090144027, win 65495, options [mss 65495,sackOK,TS val 3422311164 ecr 0,nop,wscale 7], length 0
+E..<F.@.@..5............./...........0.........
+..R.........
+17:16:03.583496 IP 127.0.0.1.8080 > 127.0.0.1.32898: Flags [S.], seq 2829665779, ack 3090144028, win 65483, options [mss 65495,sackOK,TS val 3422311164 ecr 3422311164,nop,wscale 7], length 0
+E..<..@.@.<...............E../.......0.........
+..R...R.....
+17:16:03.583506 IP 127.0.0.1.32898 > 127.0.0.1.8080: Flags [.], ack 1, win 512, options [nop,nop,TS val 3422311164 ecr 3422311164], length 0
+E..4F.@.@..<............./....E......(.....
+..R...R.
+17:16:03.583547 IP 127.0.0.1.32898 > 127.0.0.1.8080: Flags [P.], seq 1:238, ack 1, win 512, options [nop,nop,TS val 3422311164 ecr 3422311164], length 237: HTTP: POST / HTTP/1.1
+E..!F.@.@..N............./....E............
+..R...R.POST / HTTP/1.1
+Host: localhost:8080
+User-Agent: curl/7.88.1
+Accept: */*
+Authorization: Basic dmFzeWE6TXlQYXNzd29yZDIwMjQ=
+Content-Length: 38
+Content-Type: application/x-www-form-urlencoded
+
+username=vasya&password=MyPassword2024
+17:16:03.583551 IP 127.0.0.1.8080 > 127.0.0.1.32898: Flags [.], ack 238, win 510, options [nop,nop,TS val 3422311164 ecr 3422311164], length 0
+E..403@.@.................E../.	.....(.....
+..R...R.
+17:16:03.584188 IP 127.0.0.1.8080 > 127.0.0.1.32898: Flags [P.], seq 1:199, ack 238, win 512, options [nop,nop,TS val 3422311164 ecr 3422311164], length 198: HTTP: HTTP/1.0 501 Unsupported method ('POST')
+E...04@.@.................E../.	...........
+..R...R.HTTP/1.0 501 Unsupported method ('POST')
+Server: SimpleHTTP/0.6 Python/3.11.2
+Date: Mon, 22 Jun 2026 12:16:03 GMT
+Connection: close
+Content-Type: text/html;charset=utf-8
+Content-Length: 357
+
+
+17:16:03.584202 IP 127.0.0.1.32898 > 127.0.0.1.8080: Flags [.], ack 199, win 511, options [nop,nop,TS val 3422311164 ecr 3422311164], length 0
+E..4F.@.@..:............./.	..F......(.....
+..R...R.
+17:16:03.584225 IP 127.0.0.1.8080 > 127.0.0.1.32898: Flags [P.], seq 199:556, ack 238, win 512, options [nop,nop,TS val 3422311164 ecr 3422311164], length 357: HTTP
+E...05@.@..(..............F../.	...........
+..R...R.<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Error response</title>
+    </head>
+    <body>
+        <h1>Error response</h1>
+        <p>Error code: 501</p>
+        <p>Message: Unsupported method ('POST').</p>
+        <p>Error code explanation: 501 - Server does not support this operation.</p>
+    </body>
+</html>
+
+17:16:03.584233 IP 127.0.0.1.32898 > 127.0.0.1.8080: Flags [.], ack 556, win 509, options [nop,nop,TS val 3422311164 ecr 3422311164], length 0
+E..4F.@.@..9............./.	..H......(.....
+..R...R.
+17:16:03.584266 IP 127.0.0.1.8080 > 127.0.0.1.32898: Flags [F.], seq 556, ack 238, win 512, options [nop,nop,TS val 3422311164 ecr 3422311164], length 0
+E..406@.@.................H../.	.....(.....
+..R...R.
+17:16:03.584285 IP 127.0.0.1.32898 > 127.0.0.1.8080: Flags [F.], seq 238, ack 557, win 512, options [nop,nop,TS val 3422311164 ecr 3422311164], length 0
+E..4F.@.@..8............./.	..H .....(.....
+..R...R.
+17:16:03.584296 IP 127.0.0.1.8080 > 127.0.0.1.32898: Flags [.], ack 239, win 512, options [nop,nop,TS val 3422311164 ecr 3422311164], length 0
+E..407@.@.................H ./.
+.....(.....
+..R...R.
+17:16:05.412171 IP 127.0.0.1.32860 > 127.0.0.1.8080: Flags [S], seq 3495830455, win 65495, options [mss 65495,sackOK,TS val 3422312992 ecr 0,nop,wscale 7], length 0
+E..<.C@.@..v.........\...^#..........0.........
+..Z ........
+17:16:05.412186 IP 127.0.0.1.8080 > 127.0.0.1.32860: Flags [S.], seq 4056770650, ack 3495830456, win 65483, options [mss 65495,sackOK,TS val 3422312992 ecr 3422312992,nop,wscale 7], length 0
+E..<..@.@.<............\..hZ.^#......0.........
+..Z ..Z ....
+17:16:05.412198 IP 127.0.0.1.32860 > 127.0.0.1.8080: Flags [.], ack 1, win 512, options [nop,nop,TS val 3422312992 ecr 3422312992], length 0
+E..4.D@.@..}.........\...^#...h[.....(.....
+..Z ..Z 
+17:16:05.412248 IP 127.0.0.1.32860 > 127.0.0.1.8080: Flags [P.], seq 1:2
